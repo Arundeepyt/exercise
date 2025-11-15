@@ -1,0 +1,9 @@
+#shopping chart
+
+item=input("what items you like to buy?")
+price=float(input("what is price:?"))
+quantity=int(input("how many you want to buy:?"))
+total=price*quantity
+
+print(f"you have bought{quantity} x {item}/s")
+print(f"you total  is : ${total}")
